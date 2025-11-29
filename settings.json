@@ -1,0 +1,26 @@
+{
+  "bluetooth": {
+    "enabled": true,
+    "bluetoothDeviceName": "Approach R10",
+    "reconnectInterval": 5,
+    "autoWake": false,
+    "calibrateTiltOnConnect": false,
+    "debugLogging": false,
+    "sendStatusChangesToGSP": false,
+    "temperature": 72,
+    "humidity": 0.5,
+    "altitude": 0,
+    "airDensity": 1,
+    "teeDistanceInFeet": 7
+  },
+  "r10Server": {
+    "enabled": false,
+    "port": 2483
+  },
+  "openGolfSim": {
+    "enabled": true,
+    "host": "192.168.1.65",
+    "port": 3111,
+    "reconnectInterval": 5
+  }
+}
